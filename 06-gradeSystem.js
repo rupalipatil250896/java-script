@@ -68,3 +68,12 @@ dayOfTheWeek(null);
 dayOfTheWeek(NaN);
 dayOfTheWeek(-2);
 dayOfTheWeek(0);
+
+
+
+
+
+
+for (var index = 0; index <= 10; index++) {
+    console.log(index);  
+}
