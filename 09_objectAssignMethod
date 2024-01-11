@@ -1,0 +1,52 @@
+const developer11 = {
+    firstName: "Gajanan",
+    age: 32,
+    isMarried: true
+}
+
+const newDeveloper1 = Object.assign({}, developer1)
+newDeveloper1.firstName = "Jenny";
+console.log(newDeveloper1);
+console.log(developer1);
+
+console.log(`====== Object merge ===========`);
+const user1 = {
+    name: "Bill",
+    designation: "CEO"
+}
+const address1= {
+    city: "LA",
+    country: "USA",
+    pin: 112233
+}
+
+const mergeObj1 = Object.assign({}, user, address );
+console.log(user1);
+console.log(address1);
+console.log(mergeObj1);
+const developer1 = {
+    firstName: "Gajanan",
+    age: 32,
+    isMarried: true
+}
+
+const newDeveloper1 = Object.assign({}, developer1)
+newDeveloper.firstName = "Jenny";
+console.log(newDeveloper);
+console.log(developer);
+
+console.log(`====== Object merge ===========`);
+const user11 = {
+    name: "Bill",
+    designation: "CEO"
+}
+const address11 = {
+    city: "LA",
+    country: "USA",
+    pin: 112233
+}
+
+const mergeObj = Object.assign({}, user, address,  );
+console.log(user);
+console.log(address);
+console.log(mergeObj);

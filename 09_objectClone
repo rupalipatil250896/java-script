@@ -1,0 +1,49 @@
+console.log(`----------------step 1-------------`);
+console.log(`---------------create object bankSbi------------`);
+
+let bankSbi={
+bankName:"SBI",
+place:"Paithan",
+branch:"sambhajinagar",
+address:"hanuman nagar paithan"
+}
+console.log(bankSbi);
+console.log(`---------------------step 2-----------------------`);
+console.log(`-------------------create the object bankLocation--------------------`);
+let bankLocation={
+    street:"Mudhalwadi,Maharashtra",
+    city:"paithan",
+    pin:431148
+}
+console.log(bankLocation);
+console.log(`---------------------step 3-----------------------`);
+const bank = Object.assign({}, bankSbi,bankLocation)
+bank.place = "verul";
+console.log(`Clone the object bankSbi and bankLocation===>`);
+console.log(bank);
+console.log(bankSbi,bankLocation);
+console.log(`----------------Step 4-----------------`);
+ratrOfInterest={
+    homeLoanInterest:8500,
+    personalLoanInterest:6390,
+    dueInterest:9230
+}
+console.log(ratrOfInterest);
+console.log(`--------------------------step 5--------------------------`);
+const sbiDetails = {
+    let bankSbi = {
+        bankName:"SBI",
+        place:"Paithan",
+        branch:"sambhajinagar",
+        address:"hanuman nagar paithan"
+        }  
+        let bankLocation={
+            street:"Mudhalwadi,Maharashtra",
+            city:"paithan",
+            pin:431148
+        }
+}
+const mergeObj = Object.assign({}, bankSbi, bankLocation,  );
+console.log(mergeObj);
+console.log(bankSbi)
+console.log(bankLocation);
