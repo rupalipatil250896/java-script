@@ -9,7 +9,7 @@ let professor = {
      certificate:['Hacker Rank Participation','Certificatr in Adv Programming','Certificate in IFFcourse'],
     
 }
-let Degree={
+ Degree={
     Enegineering:'CSC',
     PHD:'Adv Computing',
     DLitt:"Writing",

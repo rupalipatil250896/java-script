@@ -24,9 +24,9 @@ console.log(bank);
 console.log(bankSbi,bankLocation);
 console.log(`----------------Step 4-----------------`);
 const ratrOfInterest={
-    homeLoanInterest:8500,
-    personalLoanInterest:6390,
-    dueInterest:9230
+    homeLoanInterest:8.5,
+    personalLoanInterest:6,
+    dueInterest:2.3
 }
 console.log(ratrOfInterest);
 console.log(`--------------------------step 5--------------------------`);
@@ -43,9 +43,9 @@ console.log(`--------------------------step 5--------------------------`);
             pin:431148
         }
        const ratrOfInterest1={
-            homeLoanInterest:8500,
-            personalLoanInterest:6390,
-            dueInterest:9230
+            homeLoanInterest:8.5,
+            personalLoanInterest:6,
+            dueInterest:2.3
         }
     
 
