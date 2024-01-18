@@ -14,12 +14,15 @@ class Vehical{
 const car = new Vehical("MGAstor","Red","9.98 Lack",4,"MH12 JM6679")
 console.log(`Vahical information==>${car.name}`);
 car.getDetails();
+console.log(``);
 const Bike = new Vehical("Yamaha","Black","2.98 Lack",2,"MH14 JM6979")
 console.log(`Vahical information==>${Bike.name}`);
 Bike.getDetails();
+console.log(``);
 const Bike1 = new Vehical("Honda","Yellow","1.98 Lack",2,"MH10 GM57789")
 console.log(`Vahical information==>${Bike1.name}`);
 Bike1.getDetails();
+console.log(``);
 console.log(`Traversing array of Object...`);
 const arrayVehical = [ car,Bike,Bike1 ];
 for (const element of arrayVehical) {
@@ -34,26 +37,38 @@ class College{
     this.faculty = faculty
     
    }
-    getDetails(){
+    getdisplay(){
         console.log(`Name:${this.name},staff:${this.staff},location:${this.location},faculty:${this.faculty}`);
     
 
     }
+
 }
 
 const  college = new College(" DN College","30","Faizpur",3,)
 console.log(`College information==>${college.name}`);
-college.getDetails();
+college.getdisplay();
+console.log(``);
 const  college1 = new College(" MJ College","40","Jalgaon",6,)
 console.log(`College information==>${college1.name}`);
-college1.getDetails();
+college1.getdisplay();
+console.log(``);
 const  college2 = new College(" JT Mahajan College","45","Faizpur",8,)
 console.log(`College information==>${college2.name}`);
-college2.getDetails();
+college2.getdisplay();
+console.log(`-------------------------------step 3-------------------------------------`);
 const array=[college,college1,college2]
-for (const key in array) {
+function traverseObject(arg){
+for (const key in arg) {
     
-        const element = array[key];
+        const element = arg[key];
         console.log(`key==>${key},Value==>${element}`);
         
     }
+}
+traverseObject(college);
+console.log(``);
+traverseObject(college1);
+console.log(``);
+traverseObject(college2);
+console.log(``);
